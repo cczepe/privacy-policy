@@ -22,7 +22,3 @@ Dein Anthropic API-Schlüssel wird lokal auf deinem Gerät mit Android DataStore
 | `CAMERA` | Fotos für die Analyse aufnehmen |
 | `INTERNET` | Bilder an die Anthropic API senden |
 | `READ_MEDIA_IMAGES` / `WRITE_EXTERNAL_STORAGE` | Analysierte Bilder in der Galerie speichern |
-
-## Kontakt
-
-Bei Fragen bitte ein Issue öffnen unter [github.com/cczepe/a-eye-app](https://github.com/cczepe/a-eye-app).
