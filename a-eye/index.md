@@ -24,7 +24,7 @@ Folgende Daten werden ausschließlich **lokal auf deinem Gerät** gespeichert un
 | Datum | Zweck |
 |---|---|
 | Anthropic API-Schlüssel (optional) | Authentifizierung gegenüber der Anthropic API |
-| Täglicher Analysezähler | Durchsetzung des Gratis-Tageskontingents (5 Analysen/Tag) |
+| Täglicher Analysezähler | Durchsetzung des Gratis-Tageskontingents (3 Analysen/Tag) |
 | Datum der letzten Analyse | Automatisches Zurücksetzen des Tageszählers |
 | Onboarding-Status | Einmalige Anzeige des Einführungsbildschirms |
 
