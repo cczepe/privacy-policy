@@ -1,6 +1,6 @@
 # Datenschutzerklärung
 
-**Gültig ab:** 2026-04-01
+**Gültig ab:** 2026-04-03
 
 ---
 
@@ -17,9 +17,24 @@ Bilder werden ausschließlich für die Dauer des KI-Analyse-API-Calls verarbeite
 
 ---
 
+## Lokale Datenspeicherung
+
+Folgende Daten werden ausschließlich **lokal auf deinem Gerät** gespeichert und verlassen es niemals:
+
+| Datum | Zweck |
+|---|---|
+| Anthropic API-Schlüssel (optional) | Authentifizierung gegenüber der Anthropic API |
+| Täglicher Analysezähler | Durchsetzung des Gratis-Tageskontingents (5 Analysen/Tag) |
+| Datum der letzten Analyse | Automatisches Zurücksetzen des Tageszählers |
+| Onboarding-Status | Einmalige Anzeige des Einführungsbildschirms |
+
+Der Tageszähler und das Datum werden automatisch zurückgesetzt, sobald ein neuer Tag beginnt. Es findet keine Übertragung dieser Daten an externe Server statt.
+
+---
+
 ## Speicherung des API-Schlüssels
 
-Dein Anthropic API-Schlüssel wird lokal auf deinem Gerät mit Android DataStore gespeichert. Er verlässt das Gerät ausschließlich im `x-api-key`-Header von Anfragen an `api.anthropic.com`.
+Dein Anthropic API-Schlüssel (sofern eingegeben) wird lokal auf deinem Gerät mit Android DataStore gespeichert. Er verlässt das Gerät ausschließlich im `x-api-key`-Header von Anfragen an `api.anthropic.com`.
 
 ---
 
@@ -35,7 +50,7 @@ Dein Anthropic API-Schlüssel wird lokal auf deinem Gerät mit Android DataStore
 
 ## Deine Rechte (DSGVO)
 
-Du hast jederzeit das Recht auf Auskunft, Berichtigung und Löschung deiner personenbezogenen Daten. Da A-Eye keine Nutzerdaten dauerhaft speichert, gibt es schlicht keine Daten zu löschen. Für Anfragen stehen wir dennoch gerne zur Verfügung.
+Du hast jederzeit das Recht auf Auskunft, Berichtigung und Löschung deiner personenbezogenen Daten. Da A-Eye keine Nutzerdaten dauerhaft auf externen Servern speichert, kannst du alle lokal gespeicherten Daten jederzeit durch Löschen der App oder Zurücksetzen der App-Daten in den Android-Einstellungen entfernen. Für weitere Anfragen stehen wir gerne zur Verfügung.
 
 ---
 
